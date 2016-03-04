@@ -1,1 +1,6 @@
 
+Just download the KSAR from the following site http://sourceforge.net/projects/ksar/. And unzip it to some directory, now you can go ahead and execute this following command to generate SAR report in PDF format.
+ 
+Pass the merged text filed as an input to this kSar.jar, like below:
+ 
+[grd@dayrhegrdd003 kSar-5.0.6]$ java -jar kSar.jar  -input sarmonthly.txt -outputPDF sarmonthly.pdf
